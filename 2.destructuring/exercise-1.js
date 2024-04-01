@@ -25,7 +25,8 @@ console.log(year);
 // // console.log(diez);
 // // console.log(veinte);
 // // console.log(treinta);
-// [a, b, c] = [10, 20, 30];
+
+[a, b, c] = [10, 20, 30];
 
 const objeto = { w: 1, y: 2, z: 3 };
 const { w, y, z } = objeto;
@@ -43,7 +44,6 @@ const { w, y, z } = objeto;
 // // console.log(b);
 // // Expected output: 20
 
-// // [a, b, ...rest] = [10, 20, 30, 40, 50];
+[a, b, ...rest] = [10, 20, 30, 40, 50];
 
-// // console.log(rest);
-// // Expected output: Array [30, 40, 50]
+console.log(rest);
